@@ -27,7 +27,7 @@ cat > "$CFG" <<JSON
       "port": ${PORT},
       "protocol": "vless",
       "settings": {
-        "clients": [ { "id": "${UUID}", "encryption": "none" } ],
+        "clients": [ { "id": "${UUID}" } ],
         "decryption": "none"
       },
       "streamSettings": {
