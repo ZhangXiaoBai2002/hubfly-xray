@@ -37,7 +37,7 @@ cat > "$CFG" <<JSON
       }
     }
   ],
-  "outbounds": [ { "protocol": "freedom" } ]
+  "outbounds": [ { "protocol": "freedom", "settings": { "domainStrategy": "UseIPv4" } } ]
 }
 JSON
 
